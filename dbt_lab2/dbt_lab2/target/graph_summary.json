@@ -1,0 +1,1 @@
+{"_invocation_id": "47c3a7e3-61df-47c4-b620-5241334c76bf", "linked": {"0": {"name": "source.dbt_lab2.raw_data.vantage_api", "type": "source", "succ": [1, 2, 3]}, "1": {"name": "model.dbt_lab2.moving_average", "type": "model"}, "2": {"name": "model.dbt_lab2.rsi", "type": "model"}, "3": {"name": "snapshot.dbt_lab2.stock_price_snapshot", "type": "snapshot"}}}

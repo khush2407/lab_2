@@ -1,0 +1,13 @@
+dbt_lab2:
+  outputs:
+    dev:
+      account: QQOQSGU-YB40887
+      database: STOCK_PRICE_DB
+      password: Deva@123
+      role: ACCOUNTADMIN
+      schema: RAW_DATA
+      threads: 1
+      type: snowflake
+      user: deva
+      warehouse: COMPUTE_WH
+  target: dev
